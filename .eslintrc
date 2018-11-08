@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react",
+    "flowtype",
+    "jest"
+  ],
+  "rules": {
+    "space-before-function-paren": 0,
+    "comma-dangle": 0,
+    "flowtype/require-valid-file-annotation": 2,
+    "no-unused-expressions": 0,
+    "flowtype/no-unused-expressions": 2
+  },
+  "env": {
+    "jest/globals": true
+  },
+  "settings": {
+    "react": {
+      "version": "16.7"
+    }
+  }
+}
