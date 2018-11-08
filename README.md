@@ -1,5 +1,5 @@
 # react-shared-hooks
----
+
 POC of global react hooks. Makes it possible to use global states based on hooks.
 
 ## Usage:
