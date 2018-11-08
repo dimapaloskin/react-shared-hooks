@@ -6,14 +6,14 @@ POC of global react hooks. Makes it possible to use global states based on hooks
 
 ```js
 import * as React from 'react'
-import { createSharedHook, useSharedHook, withSharedHooks } from 'react-shared-hooks'
+import { createSharedHook, useSharedHooksState, withSharedHooks } from 'react-shared-hooks'
 
 const { useState } = React
 
 const counter = createSharedHook(useState, { count: 0 })
 
 const Counter = () => {
-  const [state, setState] = useSharedHook(hooks => hooks.counter)
+  const [state, setState] = useSharedHooksState(state => state.counter)
 
   return (
     <div>
@@ -44,8 +44,8 @@ export default withSharedHooks({ counter })(App)
 - `hooks`: *object* - object of created hooks
 - `Component`: *React Component* - wrapped component
 
-### `useSharedHook(selector)`
-- `selector`: *function* - selector function that receives object of all hooks
+### `useSharedHooksState(selector)`
+- `selector`: *function* - selector function that receives object of all resolved hook states
 
 ## Examples
 
