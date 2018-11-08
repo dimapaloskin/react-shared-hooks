@@ -40,11 +40,11 @@ export default withSharedHooks({ counter })(App)
 - `hook`: *function* - react hook
 - `...args`: *any* - arguments that will be passed at the time of the hook initialization
 
-### withSharedHooks(hooks)(Component)
+### `withSharedHooks(hooks)(Component)`
 - `hooks`: *object* - object of created hooks
 - `Component`: *React Component* - wrapped component
 
-### useSharedHook(selector)
+### `useSharedHook(selector)`
 - `selector`: *function* - selector function that receives object of all hooks
 
 ## Examples
