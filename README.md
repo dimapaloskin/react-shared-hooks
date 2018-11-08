@@ -36,7 +36,7 @@ export default withSharedHooks({ counter })(App)
 
 ## API
 
-### `createSharedHooks(hook, ...args)`
+### `createSharedHook(hook, ...args)`
 - `hook`: *function* - react hook
 - `...args`: *any* - arguments that will be passed at the time of the hook initialization
 
