@@ -36,7 +36,9 @@ export const useSharedHooksState = (selector: Function) => {
 export const withSharedHooks = (hooks: { [key: any]: SharedHook }) => (
   Component: React.ComponentType<*>,
 ) => {
-  const hooksArray: Array<SharedHook> = Object.keys(hooks).map(key => hooks[key])
+  const hooksArray: Array<SharedHook> = Object.keys(hooks)
+    .map(key => hooks[key])
+    .reverse()
 
   const GlobalSharedHooksProvider = (props: *) => {
     const nestedProviders = hooksArray.reduce((acc, { Provider }) => {
