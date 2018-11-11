@@ -1627,6 +1627,11 @@ eslint-plugin-promise@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.0.1.tgz#2d074b653f35a23d1ba89d8e976a985117d1c6a2"
 
+eslint-plugin-react-hooks@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-0.0.0.tgz#9988f14082a159931c3dfa9ba699130457da927a"
+  integrity sha512-SXyU7C3E8AJbXKMdb10P/zHazcxzfuWR5OFwAVZKXVU7P/H56NLszVG6WdQBo9Pt80FfnPXtUGGbWhs3/98N4w==
+
 eslint-plugin-react@^7.11.1:
   version "7.11.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.11.1.tgz#c01a7af6f17519457d6116aa94fc6d2ccad5443c"
@@ -3781,16 +3786,6 @@ react-test-renderer@^16.7.0-alpha.0:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     react-is "^16.7.0-alpha.0"
-    scheduler "^0.11.0-alpha.0"
-
-react@^16.7.0-alpha.0:
-  version "16.7.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.7.0-alpha.0.tgz#e2ed4abe6f268c9b092a1d1e572953684d1783a9"
-  integrity sha512-V0za4H01aoAF0SdzahHepvfvzTQ1xxkgMX4z8uKzn+wzZAlVk0IVpleqyxZWluqmdftNedj6fIIZRO/rVYVFvQ==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
     scheduler "^0.11.0-alpha.0"
 
 read-pkg-up@^1.0.1:

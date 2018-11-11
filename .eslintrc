@@ -7,6 +7,7 @@
   "plugins": [
     "react",
     "flowtype",
+    "react-hooks",
     "jest"
   ],
   "rules": {
@@ -14,7 +15,8 @@
     "comma-dangle": 0,
     "flowtype/require-valid-file-annotation": 2,
     "no-unused-expressions": 0,
-    "flowtype/no-unused-expressions": 2
+    "flowtype/no-unused-expressions": 2,
+    "react-hooks/rules-of-hooks": "error"
   },
   "env": {
     "jest/globals": true
