@@ -8,13 +8,17 @@
   "license": "MIT",
   "scripts": {
     "build": "rollup -c rollup.config.js",
+    "test": "jest",
     "lint": "eslint ./src"
   },
   "devDependencies": {
     "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
     "eslint": "^5.8.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-flowtype": "^3.2.0",
@@ -24,6 +28,9 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-standard": "^4.0.0",
+    "flow-bin": "^0.86.0",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.7.0-alpha.0",
     "rollup": "^0.67.0",
     "rollup-plugin-babel": "^4.0.3"
   },
