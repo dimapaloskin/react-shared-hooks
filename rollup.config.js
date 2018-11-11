@@ -1,13 +1,13 @@
-import babel from 'rollup-plugin-babel';
+import babel from 'rollup-plugin-babel'
 
 const lib = {
   input: 'src/index.js',
   output: {
     file: 'dist/index.js',
     format: 'cjs',
-    sourcemap: 'inline'
+    sourcemap: 'inline',
   },
-  plugins: [ babel() ]
-};
+  plugins: [babel()],
+}
 
 export default [lib]
