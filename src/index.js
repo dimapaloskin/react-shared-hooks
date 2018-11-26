@@ -26,7 +26,7 @@ export const createSharedHook = (useHook: Function, ...args: any[]) => {
   }
 }
 
-export const useSharedHooksState = (selector: Function) => {
+export const useSharedHooksState = <R: *>(selector: (states: Object) => R): R => {
   const globalContext = useContext(GlobalContext)
   const sharedHook = selector(globalContext.hooks)
   const result = useContext(sharedHook.Context)
