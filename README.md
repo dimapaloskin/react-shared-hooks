@@ -49,6 +49,6 @@ export default withSharedHooks({ counter })(App)
 
 ## Examples
 
-* Simple `useState` - https://codesandbox.io/s/9zy9jwkyj4
 * Inputs - https://codesandbox.io/s/kw43p7m0vr
+* Simple `useState` - https://codesandbox.io/s/9zy9jwkyj4
 * With `useReducer` - https://codesandbox.io/s/7yrzn42w8x
